@@ -1,0 +1,22 @@
+<template>
+    <ul>
+        <li>{{book.author}}</li>
+    </ul>
+</template>
+
+<script>
+    export default {
+        
+        data() {
+            return {
+                name: 'BookItem',
+                props: 'book'
+            }
+        },    
+    }
+</script>
+    
+<style>
+    li {display: block; margin: 0 10px;}
+
+</style>
